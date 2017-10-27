@@ -13,7 +13,20 @@ const config = {
     extensions: ['.ts', '.js']
   },
   module: {
-    rules: [ {test: /\.ts?$/, use: 'ts-loader' } ]
+    rules: [
+      {
+        test: /\.ts?$/,
+        use: 'ts-loader'
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          { loader: "style-loader" },
+          { loader: "css-loader" },
+          { loader: "sass-loader" }
+        ]
+      }
+    ]
   },
   plugins: [
     new HtmlWebpackPlugin({

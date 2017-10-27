@@ -1,5 +1,6 @@
 import { add } from './module';
 import { join } from 'lodash';
+import './style.scss';
 
 const result = add(2, 3);
 
