@@ -1,0 +1,8 @@
+{
+  "name": "course",
+  "version": "1.0.0",
+  "description": "My description",
+  "main": "index.js",
+  "author": "Sirbu Nicolae-Cezar<sirbunicolaecezar@gmail.com>",
+  "license": "MIT"
+}
