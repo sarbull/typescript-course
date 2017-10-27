@@ -1,4 +1,5 @@
 import { add } from './module';
+import { join } from 'lodash';
 
 const result = add(2, 3);
 
@@ -8,3 +9,9 @@ setTimeout(() => {
     })
 }, 5000 );
 
+declare const _:any;
+console.log(_.join(['Hello', 'webpack'], ' '));
+
+// declare const join:any;
+
+console.log(join(['Hello', 'webpack'], ' '));

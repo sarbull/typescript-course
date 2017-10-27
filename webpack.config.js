@@ -22,7 +22,8 @@ const config = {
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common'
     }),
-    new webpack.ProvidePlugin({ _: 'lodash' })
+    new webpack.ProvidePlugin({ _: 'lodash' }),
+    new webpack.ProvidePlugin({ join: 'lodash/join' })
   ]
 };
 
