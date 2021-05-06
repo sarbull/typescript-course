@@ -28,6 +28,6 @@
     "@types/lodash": "^4.14.80",
     "@types/node": "^8.0.47",
     "@types/webpack": "^3.0.14",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.21"
   }
 }
